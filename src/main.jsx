@@ -7,7 +7,7 @@ import Layout from './components/Layout.jsx'
 import Home from './components/Home.jsx'
 import AboutUs from './components/AboutUs.jsx'
 import Gallery from './components/Gallery.jsx'
-import Careers from './components/Careers.jsx'
+// import Careers from './components/Careers.jsx'
 import Contact from './components/contact.jsx'
 
 const router = createBrowserRouter(
