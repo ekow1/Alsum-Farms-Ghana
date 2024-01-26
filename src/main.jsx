@@ -7,7 +7,6 @@ import Layout from './components/Layout.jsx'
 import Home from './components/Home.jsx'
 import AboutUs from './components/AboutUs.jsx'
 import Gallery from './components/Gallery.jsx'
-// import Careers from './components/Careers.jsx'
 import Contact from './components/contact.jsx'
 
 const router = createBrowserRouter(
@@ -16,7 +15,6 @@ const router = createBrowserRouter(
       <Route path=''  element={<Home />}/>
       <Route path='about'  element={<AboutUs />}/>
       <Route path='gallery'  element={<Gallery />}/>
-      {/* <Route path='careers'  element={<Careers />}/> */}
       <Route path='contact'  element={<Contact />}/>
 
     </Route>
