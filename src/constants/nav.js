@@ -20,11 +20,11 @@ export const FooterNav = [
     link : '/gallery'
 
      },
-    {
-    name : "careers",
-    link : '/careers'
+    // {
+    // name : "careers",
+    // link : '/careers'
 
-     },
+    //  },
      {
     name : "contact",
     link : '/contact'
