@@ -19,7 +19,7 @@ const Footer = () => {
                  
                 
                 </div>
-                <div className=" w-full  lg:w-[70%]   font-mono lg:text-md  flex flex-col lg:flex-row items-center  justify-center lg:gap-10  lg:justify-end   order-1 lg:order-2 ">
+                <div className=" w-full  lg:w-[70%]   font-mono lg:text-md  flex flex-col lg:flex-row items-center  justify-center lg:gap-10  gap-5 lg:justify-end   order-1 lg:order-2 ">
                     <ul className=' w-full flex items-center justify-center lg:justify-end gap-5 font-thin '>
                 {
                     FooterNav.map(nav =>(
