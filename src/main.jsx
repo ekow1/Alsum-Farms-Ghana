@@ -7,7 +7,7 @@ import Layout from './components/Layout.jsx'
 import Home from './components/Home.jsx'
 import AboutUs from './components/AboutUs.jsx'
 import Gallery from './components/Gallery.jsx'
-import Contact from './components/contact.jsx'
+import Contact from './components/Contact.jsx'
 
 const router = createBrowserRouter(
    createRoutesFromElements(
