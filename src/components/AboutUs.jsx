@@ -152,12 +152,12 @@ const AboutUs = () => {
         
         <div className=" w-[80%] h-[90%] lg:h-[70%] grid grid-cols-1 md:grid-cols-3  gap-5 lg:gap-0  place-items-center mt-10    py-5 lg:py-5 lg:px-16">
          <div className="  w-[ 100px] lg:w-[400px] min-h-[250px] bg-slate-50 rounded-xl shadow-xl p-5" data-aos='fade-zoom-in' data-aos-delay='5000'>
-          <h1 className=" w-[20%] font-serif font-bold border-b-2 border-black py-2 mb-6">Vison</h1>
+          <h1 className=" w-[20%] font-serif font-bold border-b-2 border-black py-2 mb-6">Vision</h1>
           <p className='font-mono '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi doloribus repudiandae eveniet nostrum asperiores delectus odio dolore qui ducimus nulla!</p>
 
          </div>
          <div className="w-[ 100px] lg:w-[400px] min-h-[250px] bg-slate-50  rounded-xl shadow-xl p-5" data-aos='fade-zoom-in' data-aos-delay='1000'>
-          <h1 className=" w-[20%] font-serif font-bold border-b-2 border-black py-2 mb-6">Mision</h1>
+          <h1 className=" w-[20%] font-serif font-bold border-b-2 border-black py-2 mb-6">Mission</h1>
            <p className='font-mono '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi doloribus repudiandae eveniet nostrum asperiores delectus odio dolore qui ducimus nulla!</p>
 
          </div>
