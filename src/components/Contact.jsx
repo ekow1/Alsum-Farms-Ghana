@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="w-full h-80 flex flex-col items-center justify-center lg:mt-20 bg-cover bg-center bg-no-repeat " style={{backgroundImage:`linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.7) 100%) , url(${Image})`}}>
 
          <h1 className="lg:text-6xl text-4xl font-bold mb-4  text-white">Get In Touch</h1>
-         <p className='font-mono text-white lg:text-2xl'>- Cultivating Relationships, Growing Together. - </p>
+         <p className='font-mono text-white lg:text-2xl text-center'>- Cultivating Relationships, Growing Together. - </p>
         </div>
       <div className="w-full h-[70%] grid grid-cols-1 md:grid-cols-2   justify-center   gap-4 px-8 py-5 lg:py-5 lg:px-16">
         <div className=" flex flex-col items-center  justify-center lg:justify-start lg:mt-24">
