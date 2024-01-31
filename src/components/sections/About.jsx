@@ -22,7 +22,7 @@ const About = () => {
                 <div className=" w-full lg:w-[30%]  " data-aos='fade-right'>
                  <div className=" flex flex-col gap-3 mb-5">
                 <h1 className='font-serif font-bold text-5xl' >about us</h1>
-                <p className='font-mono' >Lorem ipsum dolor sit amet.</p>
+                <p className='font-mono text-sm' > Unveiling the Story of Alsum Farms.</p>
 
                  </div>
                  <NavLink to='/about'>
@@ -33,8 +33,9 @@ const About = () => {
 
                 
                 </div>
-                <div className=" w-full  lg:w-[70%]  font-mono lg:text-6xl font-bold " data-aos='fade-in'>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, quaerat.</p>
+                <div className=" w-full  lg:w-[70%]  font-mono lg:text-4xl font-bold " data-aos='fade-in'>
+                <p>
+                  Alsum Farms envisions a future where innovative agricultural practices flourish, fostering sustainable growth and prosperity for communities in Ghana..</p>
 
                 </div>
             </div>

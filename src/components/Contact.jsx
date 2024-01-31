@@ -17,13 +17,12 @@ const Contact = () => {
         <div className="w-full h-80 flex flex-col items-center justify-center lg:mt-20 bg-cover bg-center bg-no-repeat " style={{backgroundImage:`linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.7) 100%) , url(${Image})`}}>
 
          <h1 className="lg:text-6xl text-4xl font-bold mb-4  text-white">Get In Touch</h1>
-         <p className='font-mono text-white lg:text-2xl'>- Lorem ipsum dolor sit amet. - </p>
+         <p className='font-mono text-white lg:text-2xl'>- Cultivating Relationships, Growing Together. - </p>
         </div>
       <div className="w-full h-[70%] grid grid-cols-1 md:grid-cols-2   justify-center   gap-4 px-8 py-5 lg:py-5 lg:px-16">
         <div className=" flex flex-col items-center  justify-center lg:justify-start lg:mt-24">
         <div className=' w-full lg:w-[40%] flex flex-col justify-center items-start text-md gap-4 px-5 font-mono mt-10 ' >
             <h1 className='border-b-2 border-black font-serif font-bold text-xl lg:text-5xl' data-aos='fade-in'>Lets Talk</h1>
-            <p data-aos='fade-right'>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
          
         </div>
         <div className='w-full lg:w-[40%] flex flex-col justify-center items-start lg:text-xl gap-8 px-5 py-5 font-mono mt-10   ' data-aos='fade-up'>

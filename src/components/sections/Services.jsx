@@ -29,7 +29,7 @@ const Services = () => {
     <div className='w-full min-h-auto flex flex-col lg:flex-row  md:flex-col items-center justify-center  lg:px-10 lg:py-20 mt-10 mb-20'>
       <div className=' w-full lg:w-[30%] flex flex-col items-center justify-center mb-20 lg:mb-0'>
         <h1 className=" text-5xl :text-6xl font-bold text-black font-serif" data-aos='fade-zoom-in'>what we do</h1>
-         <p className='font-mono text-black lg:text-lg mt-5' data-aos='fade-in'>- services we offer - </p>
+         <p className='font-mono text-black lg:text-sm mt-5' data-aos='fade-in'>- Unveiling Alsum Farms' Agricultural Expertise - </p>
 
       </div>
 

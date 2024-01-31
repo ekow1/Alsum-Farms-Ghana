@@ -52,8 +52,8 @@ export const TopNav = [
 
     //  },
     {
-    name : "gallery",
-    link : '/gallery'
+    name : "portfolio",
+    link : '/portfolio'
 
      },
     // {

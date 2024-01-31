@@ -33,8 +33,8 @@ const Gallery = () => {
     <div className='w-full min-h-screen flex flex-col  bg-white' >
         <div className="w-full h-80 flex flex-col items-center justify-center lg:mt-20 bg-cover bg-center bg-no-repeat " style={{backgroundImage:`linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.7) 100%) , url(${Image})`}}>
 
-         <h1 className="text-6xl font-bold mb-4  text-white">Gallery</h1>
-         <p className='font-mono text-white lg:text-2xl'>- Images of our works so far - </p>
+         <h1 className="text-6xl font-bold mb-4  text-white">Portfolio</h1>
+         <p className='font-mono text-white lg:text-2xl'>- Capturing Growth: A Visual Journey through Alsum Farms' Agricultural Excellence. - </p>
         </div>
       <div className="w-full  h-[100%]  grid grid-cols-1 md:grid-cols-3 gap-4 px-8 py-20 lg:py-20 lg:px-16 ">
         

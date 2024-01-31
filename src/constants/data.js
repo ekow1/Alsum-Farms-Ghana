@@ -8,21 +8,33 @@
 
 export const HeroSlide = [
     {
-    title : "Custom Ploughing",
+    title : "Ploughing",
     imgUr : '/assets/plough.jpg',    
-    description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, error.',
+    description : 'Prepare the Ground for Abundant Harvests',
     
      },
     {
-    title : "Harvesting Assistance",
-    imgUr : '/assets/harvest.jpg' ,
-     description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, error.',
+    title : "Harrowing",
+    imgUr : '/assets/harrow.jpg' ,
+     description : 'Refining Fields for Healthy Crops.',
      
    },
     {
-    title : "Crop Spraying",
+    title : "Ridging",
+    imgUr : '/assets/ridging.jpg',
+    description : 'Optimizing Soil Conditions for Prosperous Growth',
+   
+   },
+    {
+    title : "Seeding ",
+    imgUr : '/assets/seed.jpeg',
+    description : 'Planting the Seeds of Success',
+   
+   },
+    {
+    title : "Spraying",
     imgUr : '/assets/spray.png',
-    description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, error.',
+    description : 'Precision Spraying for Healthy Crops.',
    
    }
 ]

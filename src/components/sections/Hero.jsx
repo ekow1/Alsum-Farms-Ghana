@@ -77,7 +77,7 @@ const Hero = () => {
                 <div
                   className="absolute inset-0"
                   style={{
-                    background: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%)',
+                    background: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.7) 100%)',
                   }}
                 />
                 <img
@@ -88,7 +88,7 @@ const Hero = () => {
                 <div className="w-full absolute inset-0 flex flex-col lg:flex-row items-center justify-center gap-32 lg:items-center lg:justify-start md:items-center md:justify-start   ">
                   <div className="text-left w-full lg:w-[60%]  py-5 px-5  lg:px-16">
                     <h2
-                      className="text-2xl lg:text-4xl font-bold mb-2"
+                      className="text-2xl lg:text-6xl font-bold mb-2"
                       data-aos="fade-zoom-in"
                       data-aos-easing="ease-in-back"
                       data-aos-delay="5000"
@@ -96,7 +96,7 @@ const Hero = () => {
                     >
                       {item.title}
                     </h2>
-                    <p className="text-md lg:text-lg font-mono " data-aos='fade-up'>{item.description}</p>
+                    <p className="text-md lg:text-xl font-mono " data-aos='fade-up'>{item.description}</p>
                   </div>
 
       <button

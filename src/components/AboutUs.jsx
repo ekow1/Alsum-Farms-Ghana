@@ -26,7 +26,8 @@ const AboutUs = () => {
         <div className="w-full h-[1300px] lg:h-[900px] flex  flex-col items-center  justify-center  " >
           <div className=" w-full h-[100%] lg:w-[100%] lg:h-[95%] flex flex-col text-sm justify-start  gap-2 lg:gap-10  rounded-xl p-4 lg:p-8 font-mono "  data-aos='fade-zoom-in' data-aos-delay='5000'>
             <h1 className=" w-[20%] font-serif font-bold lg:text-2xl uppercase border-b-2 border-black py-2">Background</h1>
-            <p className='   text-'>
+            <p className='font-serif text-md font-semibold'>Rooted in Tradition, Growing Tomorrow: Unveiling the Story of Alsum Farms.</p>
+            <p className='  mt-5'>
               Alsum Farms and Produce (US) and Hopeline Institute (Ghana) have collaborated in the Agriculture sector since 2010, addressing gaps in service delivery across various agriculture value chains in Ghana. Key interventions include promoting Irish Potato cultivation, supporting organic vegetable farming, and engaging stakeholders to enhance local rice production
              
               
