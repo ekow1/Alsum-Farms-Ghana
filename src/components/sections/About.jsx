@@ -39,13 +39,19 @@ const About = () => {
 
                 </div>
             </div>
-            <div className=" w-full  h-[400px] lg:w-[90%] lg:h-[850px] bg-cover bg-center bg-no-repeat" style={{backgroundImage:`url(${AboutImage})`}}  
-            data-aos="fade-zoom-in"
-            data-aos-easing="ease-in-back"
-            data-aos-delay="5000"
-            data-aos-offset="0"
-            
-     ></div>
+             <video className="w-full h-[400px] lg:w-[90%] lg:h-[850px] object-cover object-center"
+                   autoPlay
+                   loop
+                   muted
+                   data-aos="fade-zoom-in"
+                   data-aos-easing="ease-in-back"
+                   data-aos-delay="5000"
+                   data-aos-offset="0"
+                   controls
+            >
+                <source src="/video/website.mp4" type="video/mp4"/>
+                Your browser does not support the video tag.
+            </video>
         </div>
 
     </div>
