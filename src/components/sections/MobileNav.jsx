@@ -44,13 +44,23 @@ const MobileNav = () => {
           
             <TiPhone size={20} /> +233 550-000-000
           </p>
+          <a href="tel:+233550000000">
           <p className='flex items-center gap-2'>
-            {' '}
-            <TiPhone size={20} /> +233 550-000-000
+         
+            <TiPhone size={20} /> 
+             +233 550-000-000
+ 
           </p>
+           </a>
+           <a href="mailto:info@alsumfarmsghana.com">
           <p className='flex items-center gap-2'>
-            <TiMail size={20} /> info@alsumfarmsghana.com
+            
+            <TiMail size={20} /> 
+            
+              info@alsumfarmsghana.com
+           
           </p>
+           </a>
 
           <ul className='flex items-center gap-5 '>
             <li>
