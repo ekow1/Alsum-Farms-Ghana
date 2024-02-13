@@ -19,8 +19,8 @@ const About = () => {
   return (
     <div className='w-full min-h-auto flex flex-col  items-center justify-center  lg:px-10 lg:py-16 lg:mt-20 py-10 '
     >
-        <div className=" w-full  h-[1050px] lg:w-full flex flex-col  items-center justify-center  ">
-            <div className="w-[90%] h-[5%] flex flex-col  items-center justify-center gap-5 lg:gap-0 lg:flex-row  lg:justify-between mb-28 lg:mb-28">
+        <div className=" w-full  h-[850px] lg:w-full flex flex-col  items-center justify-center  ">
+            <div className="w-[90%] h-[50%] flex flex-col  items-center justify-center gap-5 lg:gap-0 lg:flex-row  lg:justify-between mb-28 lg:mb-28">
                 <div className=" w-full lg:w-[30%]  " data-aos='fade-right'>
                  <div className=" flex flex-col gap-3 mb-5">
                 <h1 className='font-serif font-bold text-5xl' >about us</h1>
