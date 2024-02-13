@@ -41,19 +41,19 @@ const MobileNav = () => {
 
         <div className='w-full flex flex-col items-center text-sm gap-5 px-10  mt-20 '>
           
-          <a href="tel:+233550000000">
+          <a href="tel:+233302521588 ">
           <p className='flex items-center gap-2'>
          
             <TiPhone size={20} /> 
-             +233 550-000-000
+             +233 302-521-588 
  
           </p>
            </a>
-          <a href="tel:+233550000000">
+          <a href="tel: +233243066320">
           <p className='flex items-center gap-2'>
          
             <TiPhone size={20} /> 
-             +233 550-000-000
+             +233 243-066-320
  
           </p>
            </a>

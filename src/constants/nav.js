@@ -16,8 +16,8 @@ export const FooterNav = [
 
     //  },
     {
-    name : "gallery",
-    link : '/gallery'
+    name : "portfolio",
+    link : '/portfolio'
 
      },
     // {

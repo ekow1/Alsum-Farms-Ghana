@@ -47,11 +47,11 @@ const Navigation = () => {
         </nav>
 
         <div className="w-60% lg:w-90% flex items-center gap-10  font-mono  ">
-        <a href="tel:+233550000000">
+        <a href="tel:+233302521588">
         <p className="items-center gap-2 flex">
-            <TiPhone size={20} />{' '}
+            <TiPhone size={20} />
             
-              +233 550-000-000
+             +233 302-521-588 
         
           </p>
         </a>
