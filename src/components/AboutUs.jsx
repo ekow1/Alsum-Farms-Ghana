@@ -1,5 +1,4 @@
-import React , {useEffect} from 'react'
-import Image from '../image/farm.jpg'
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Actioncall from './sections/Actioncall'
 import AOS from 'aos';
@@ -12,19 +11,14 @@ import 'swiper/css/effect-fade';
 import { FreeMode, Pagination, Autoplay, EffectFade } from 'swiper/modules';
 
 const AboutUs = () => {
-   useEffect(() => {
-    AOS.init({
-      duration: 2000,
-      easing: 'ease-in-out'
-    });
-  }, []);
+
 
   return (
     <div className='w-full min-h-screen flex flex-col items-center    py-32' >
         
         <div className=" w-full lg:w-[80%] h-[90%] lg:h-[70%] grid grid-cols-1 md:grid-cols-2   justify-center  gap-4 px-8 py-5 lg:py-5 lg:px-16">
         <div className="w-full h-[1300px] lg:h-[900px] flex  flex-col items-center  justify-center  " >
-          <div className=" w-full h-[100%] lg:w-[100%] lg:h-[95%] flex flex-col text-sm justify-start  gap-2 lg:gap-10  rounded-xl p-4 lg:p-8 font-mono "  data-aos='fade-zoom-in' data-aos-delay='5000'>
+          <div className=" w-full h-[100%] lg:w-[100%] lg:h-[95%] flex flex-col text-sm justify-start  gap-2 lg:gap-10  rounded-xl p-4 lg:p-8  "  data-aos='fade-zoom-in' data-aos-delay='5000'>
             <h1 className=" w-[20%] font-serif font-bold lg:text-2xl uppercase border-b-2 border-black py-2">Background</h1>
             <p className='font-serif text-md font-semibold'>Rooted in Tradition, Growing Tomorrow: Unveiling the Story of Alsum Farms.</p>
             <p className='  mt-5'>
@@ -108,8 +102,8 @@ const AboutUs = () => {
             data-aos-easing="ease-in-back"
             data-aos-delay="5000"
             data-aos-offset="0">{item.title} </h2>
-            <p className="text-md lg:text-lg font-mono " data-aos='fade-up'>{item.description}</p>
-            {/* <button type="button" className='  mt-5 cursor-pointer font-mono flex items-center justify-center   gap-2  px-3 py-2 outline outline-1 hover:bg-white hover:text-black' data-aos='fade-up'>  view more <FiArrowUpRight /> </button> */}
+            <p className="text-md lg:text-lg " data-aos='fade-up'>{item.description}</p>
+            {/* <button type="button" className='  mt-5 cursor-pointer  flex items-center justify-center   gap-2  px-3 py-2 outline outline-1 hover:bg-white hover:text-black' data-aos='fade-up'>  view more <FiArrowUpRight /> </button> */}
 
           </div>
         </div>
@@ -123,22 +117,22 @@ const AboutUs = () => {
             <div className="w-full h-[100%] lg:h-[50%] grid grid-col-1 lg:grid-cols-2   place-items-center bg-slate-50 rounded-3xl lg:py-8 lg:px-8 px-2 py-2  shadow-xl" data-aos='fade-up' data-aos-delay='500'>
               <div className="w-[250px] h-[80px] lg:w-[350px] lg:h-[160px] lg:bg-slate-100 flex flex-col justify-center px-8 rounded-2xl" >
                 <h1 className='font-serif font-bold  lg:text-6xl lg:mb-4 flex items-center'>7 <span className='lg:text-4xl'>+</span></h1>
-                <p className='font-mono text-lg lg:text-lg'>Years Experience</p>
+                <p className=' text-lg lg:text-lg'>Years Experience</p>
               </div>
               
               <div className=" w-[250px] h-[80px] lg:w-[350px] lg:h-[160px] lg:bg-slate-100 flex flex-col justify-center px-8 rounded-2xl">
                 <h1 className='font-serif font-bold  lg:text-6xl lg:mb-4 flex items-center'>50<span className='lg:text-4xl'>+</span></h1>
-                <p className='font-mono text-lg lg:text-lg'>Projects</p>
+                <p className=' text-lg lg:text-lg'>Projects</p>
               </div>
               
               <div className="w-[250px] h-[80px] lg:w-[350px] lg:h-[160px] lg:bg-slate-100 flex flex-col justify-center px-8 rounded-2xl">
                 <h1 className='font-serif font-bold lg:text-6xl lg:mb-4 flex items-center'>50<span className=' lg:text-4xl'>+</span></h1>
-                <p className='font-mono lg:text-lg'>Trusted Clients</p>
+                <p className=' lg:text-lg'>Trusted Clients</p>
               </div>
               
               <div className="w-[250px] h-[80px] lg:w-[350px] lg:h-[160px] lg:bg-slate-100 flex flex-col justify-center px-8 rounded-2xl">
                 <h1 className='font-serif font-bold lg:text-6xl lg:mb-4 flex items-center'>100<span className='lg:text-4xl'>+</span></h1>
-                <p className='font-mono lg:text-lg'>Postitive Reviews</p>
+                <p className=' lg:text-lg'>Postitive Reviews</p>
               </div>
               
              
@@ -154,17 +148,17 @@ const AboutUs = () => {
         <div className=" w-[80%] h-[90%] lg:h-[70%] grid grid-cols-1 md:grid-cols-3  gap-5 lg:gap-0  place-items-center mt-10    py-5 lg:py-5 lg:px-16">
          <div className="  w-[ 100px] lg:w-[400px] min-h-[250px] bg-slate-50 rounded-xl shadow-xl p-5" data-aos='fade-zoom-in' data-aos-delay='5000'>
           <h1 className=" w-[20%] font-serif font-bold border-b-2 border-black py-2 mb-6">Vision</h1>
-          <p className='font-mono '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi doloribus repudiandae eveniet nostrum asperiores delectus odio dolore qui ducimus nulla!</p>
+          <p className=' '>Alsum Farms Ghana and Hopeline Institute collaborate to revolutionize agriculture in Ghana, addressing service gaps, promoting sustainable practices, and empowering smallholder farmers through mechanization, training, and market linkages.</p>
 
          </div>
          <div className="w-[ 100px] lg:w-[400px] min-h-[250px] bg-slate-50  rounded-xl shadow-xl p-5" data-aos='fade-zoom-in' data-aos-delay='1000'>
           <h1 className=" w-[20%] font-serif font-bold border-b-2 border-black py-2 mb-6">Mission</h1>
-           <p className='font-mono '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi doloribus repudiandae eveniet nostrum asperiores delectus odio dolore qui ducimus nulla!</p>
+           <p className=' '>Our vision is to be leaders in transforming Ghana's agriculture sector, fostering inclusive growth, and ensuring food security. Through strategic collaborations and innovative solutions, we aim to empower communities and elevate the nation's agricultural landscape.</p>
 
          </div>
          <div className="w-[ 100px] lg:w-[400px] min-h-[250px] bg-slate-50  rounded-xl shadow-xl p-5" data-aos='fade-zoom-in' data-aos-delay='1500'>
           <h1 className=" w-[40%] font-serif font-bold border-b-2 border-black py-2  mb-6">Core Values</h1>
-          <p className='font-mono '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi doloribus repudiandae eveniet nostrum asperiores delectus odio dolore qui ducimus nulla!</p>
+          <p className=' '>Our core values center on collaboration, innovation, and sustainability. We are committed to fostering strong partnerships, implementing cutting-edge solutions in agriculture, and promoting practices that contribute to the long-term well-being of communities and the environment.</p>
 
          </div>
         
