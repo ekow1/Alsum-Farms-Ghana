@@ -10,11 +10,7 @@ const Video = () => {
         src="https://streamable.com/e/3pht4n?autoplay=1&muted=1"
         width="100%"
         className='w-full '
-        style={{
-          border: '1px black', // Remove default iframe border
-          display: 'block', // Remove default inline style
-          borderRadius: '8px', // Example border-radius
-        }}
+       
       ></iframe>
     </div>
   );

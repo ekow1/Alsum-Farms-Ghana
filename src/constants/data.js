@@ -41,31 +41,31 @@ export const HeroSlide = [
 export const AboutSlide = [
     {
     id:1,
-    imgUr : '/alsum-pics/alsum.jpg',    
+    imgUr : "https://i.ibb.co/VWxkNf3/alsum.jpg" ,    
     
     
      },
     {
       id:2,
-   imgUr : '/alsum-pics/alsum-1.jpg', 
+   imgUr :  "https://i.ibb.co/RNcw4gy/alsum-1.jpg", 
     
      
    },
     {
      id:3,
-    imgUr : '/alsum-pics/alsum-2.jpg', 
+    imgUr : "https://i.ibb.co/XLhQg6M/alsum-2.jpg", 
     
    
    },
     {
      id:4,
-    imgUr : '/alsum-pics/alsum-3.jpg', 
+    imgUr : "https://i.ibb.co/8rp1fvv/alsum-3.jpg", 
     
    
    },
     {
      id:5,
-    imgUr : '/alsum-pics/alsum-4.jpg', 
+    imgUr : "https://i.ibb.co/SfWhLBG/alsum-4.jpg", 
     
    
    }

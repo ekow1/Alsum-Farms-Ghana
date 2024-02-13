@@ -6,19 +6,32 @@ import 'aos/dist/aos.css';
 
 const Gallery = () => {
   const imageUrls = [
-    "/alsum-pics/alsum.jpg",
-    "/alsum-pics/alsum-1.jpg",
-    "/alsum-pics/alsum-2.jpg",
-    "/alsum-pics/alsum-3.jpg",
-    "/alsum-pics/alsum-4.jpg",
-    "/alsum-pics/alsum-5.jpg",
-    "/alsum-pics/alsum-6.jpg",
-    "/alsum-pics/alsum-7.jpg",
-    "/alsum-pics/alsum-8.jpg",
-    "/alsum-pics/alsum-9.jpg",
-    "/alsum-pics/alsum-10.jpg",
-    "/alsum-pics/alsum-11.jpg",
-    "/alsum-pics/alsum-12.jpg",
+    // "/alsum-pics/alsum.jpg",
+    // "/alsum-pics/alsum-1.jpg",
+    // "/alsum-pics/alsum-2.jpg",
+    // "/alsum-pics/alsum-3.jpg",
+    // "/alsum-pics/alsum-4.jpg",
+    // "/alsum-pics/alsum-5.jpg",
+    // "/alsum-pics/alsum-6.jpg",
+    // "/alsum-pics/alsum-7.jpg",
+    // "/alsum-pics/alsum-8.jpg",
+    // "/alsum-pics/alsum-9.jpg",
+    // "/alsum-pics/alsum-10.jpg",
+    // "/alsum-pics/alsum-11.jpg",
+    // "/alsum-pics/alsum-12.jpg",
+    
+     "https://i.ibb.co/VWxkNf3/alsum.jpg" ,
+     "https://i.ibb.co/RNcw4gy/alsum-1.jpg" ,
+     "https://i.ibb.co/XLhQg6M/alsum-2.jpg",
+     "https://i.ibb.co/8rp1fvv/alsum-3.jpg", 
+     "https://i.ibb.co/SfWhLBG/alsum-4.jpg",
+     "https://i.ibb.co/LJPGdqX/alsum-5.jpg",
+     "https://i.ibb.co/0j68cvJ/alsum-6.jpg" ,
+     "https://i.ibb.co/thC2jJw/alsum-7.jpg",
+     "https://i.ibb.co/0FdGyD1/alsum-8.jpg",
+     "https://i.ibb.co/SvqCPMv/alsum-10.jpg",
+     "https://i.ibb.co/D7m2CRT/alsum-11.jpg",
+     "https://i.ibb.co/CpyQZJL/alsum-12.jpg"  
     
    
   ];
