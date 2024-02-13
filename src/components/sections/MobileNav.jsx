@@ -40,10 +40,15 @@ const MobileNav = () => {
         </ul>
 
         <div className='w-full flex flex-col items-center text-sm gap-5 px-10  mt-20 '>
-          <p className='flex items-center gap-2'>
           
-            <TiPhone size={20} /> +233 550-000-000
+          <a href="tel:+233550000000">
+          <p className='flex items-center gap-2'>
+         
+            <TiPhone size={20} /> 
+             +233 550-000-000
+ 
           </p>
+           </a>
           <a href="tel:+233550000000">
           <p className='flex items-center gap-2'>
          
