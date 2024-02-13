@@ -6,18 +6,21 @@ import 'aos/dist/aos.css';
 
 const Gallery = () => {
   const imageUrls = [
-    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg",
-    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
-    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg",
-    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg",
-    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg",
-    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg",
-    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg",
-    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg",
-    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg",
-    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg",
-    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg",
-    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg"
+    "/alsum-pics/alsum.jpg",
+    "/alsum-pics/alsum-1.jpg",
+    "/alsum-pics/alsum-2.jpg",
+    "/alsum-pics/alsum-3.jpg",
+    "/alsum-pics/alsum-4.jpg",
+    "/alsum-pics/alsum-5.jpg",
+    "/alsum-pics/alsum-6.jpg",
+    "/alsum-pics/alsum-7.jpg",
+    "/alsum-pics/alsum-8.jpg",
+    "/alsum-pics/alsum-9.jpg",
+    "/alsum-pics/alsum-10.jpg",
+    "/alsum-pics/alsum-11.jpg",
+    "/alsum-pics/alsum-12.jpg",
+    
+   
   ];
 
 
