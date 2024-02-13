@@ -31,7 +31,12 @@ const Navigation = () => {
     >
       <div className="md:w-[70%] lg:w-[85%] flex items-center justify-between h-[70%] text-lg  cursor-pointer rounded-2xl ">
         <nav className="w-[50%] flex items-center justify-around ">
-          <p>Logo</p>
+           <div className=''>
+        <NavLink to='/'>
+
+          <img src="/video/alsum.png " alt=" logo" width={150} height={150} />
+        </NavLink>
+      </div>
 
           <ul className="flex items-center gap-16 font-mono ">
             {TopNav.map((nav) => (
