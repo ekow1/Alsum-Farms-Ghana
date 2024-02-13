@@ -41,19 +41,31 @@ export const HeroSlide = [
 export const AboutSlide = [
     {
     id:1,
-    imgUr : '/assets/plough.jpg',    
+    imgUr : '/alsum-pics/alsum.jpg',    
     
     
      },
     {
       id:2,
-    imgUr : '/assets/harvest.jpg' ,
+   imgUr : '/alsum-pics/alsum-1.jpg', 
     
      
    },
     {
      id:3,
-    imgUr : '/assets/spray.png',
+    imgUr : '/alsum-pics/alsum-2.jpg', 
+    
+   
+   },
+    {
+     id:4,
+    imgUr : '/alsum-pics/alsum-3.jpg', 
+    
+   
+   },
+    {
+     id:5,
+    imgUr : '/alsum-pics/alsum-4.jpg', 
     
    
    }
