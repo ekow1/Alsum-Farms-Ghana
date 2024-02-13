@@ -21,7 +21,7 @@ const Actioncall = () => {
         <h1 className=' font-bold text-7xl  leading-smug  italic text-center  lg:text-9xl '>Want to work with us ?</h1>
         <Link to='/contact'>
 
-        <button type="button" className='  mt-5 cursor-pointer font-mono flex items-center justify-center rounded-full  gap-2  px-5 py-2 outline outline-1 hover:bg-slate-900 hover:text-white'>  lets talk <FiArrowUpRight /> </button>
+        <button type="button" className='  mt-5 cursor-pointer  flex items-center justify-center rounded-full  gap-2  px-5 py-2 outline outline-1 hover:bg-slate-900 hover:text-white'>  lets talk <FiArrowUpRight /> </button>
         </Link>
 
 

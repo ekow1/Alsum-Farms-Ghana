@@ -69,9 +69,9 @@ const Testimonial = () => {
           {Testimony.map(item => (
             <SwiperSlide  key={item.name}>
 
-            <article className="  mt-5 font-mono  px-10 lg:px-40   text-white">
-                <p className='mb-5 lg:mb-10  text-sm  leading-loose lg:text-xl ' data-aos='fade-up'>" {item.description} "</p>
-                <p className=' font-semibold text-lg lg:text-2xl mb-20 ' data-aos='fade-up'>{item.name} - {item.location}</p>
+            <article className="  mt-5   px-10 lg:px-40   text-white">
+                <p className='mb-5 lg:mb-10  text-sm  leading-loose lg:text-xl ' data-aos='fade-up'> "{item.description}" </p>
+                <p className='  text-lg lg:text-md mb-20 ' data-aos='fade-up'>{item.name} - {item.location}</p>
             </article>
             </SwiperSlide>
           ))}

@@ -29,7 +29,7 @@ const Services = () => {
     <div className='w-full min-h-auto flex flex-col lg:flex-row  md:flex-col items-center justify-center  lg:px-10 lg:py-20 mt-10 mb-20'>
       <div className=' w-full lg:w-[30%] flex flex-col items-center justify-center mb-20 lg:mb-0'>
         <h1 className=" text-5xl :text-6xl font-bold text-black font-serif" data-aos='fade-zoom-in'>what we do</h1>
-         <p className='font-mono text-black lg:text-sm mt-5' data-aos='fade-in'>- Unveiling Alsum Farms' Agricultural Expertise - </p>
+         <p className=' text-black lg:text-sm mt-5' data-aos='fade-in'>- Unveiling Alsum Farms' Agricultural Expertise - </p>
 
       </div>
 
@@ -38,11 +38,11 @@ const Services = () => {
           {ServicesData.map(data => (
             <article key={data.title}>
               <p className="font-semibold uppercase tracking-wide text-md lg:text-2xl font-serif" data-aos='fade-in'>{data.title}</p>
-              <p className="mt-4 leading-loose text-left font-mono" data-aos='fade-up'>{data.description}</p>
+              <p className="mt-4 leading-loose text-left " data-aos='fade-up'>{data.description}</p>
 
               <button
                 type="button"
-                className='mt-5 cursor-pointer font-mono flex items-center justify-center gap-2 px-3 py-2 outline outline-1 hover:bg-slate-900 hover:text-white'
+                className='mt-5 cursor-pointer  flex items-center justify-center gap-2 px-3 py-2 outline outline-1 hover:bg-slate-900 hover:text-white'
                 data-aos='fade-up'
                 onClick={() => openModal(data)}
               >

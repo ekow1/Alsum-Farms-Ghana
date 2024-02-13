@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { TiSocialLinkedin, TiSocialFacebook, TiSocialInstagram, TiMail, TiPhone } from 'react-icons/ti';
+import  { useState, useEffect } from 'react';
+import {  TiMail, TiPhone } from 'react-icons/ti';
 import { TopNav } from '../../constants/nav';
 import { NavLink } from 'react-router-dom';
 
@@ -31,9 +31,12 @@ const Navigation = () => {
     >
       <div className="md:w-[70%] lg:w-[85%] flex items-center justify-between h-[70%] text-lg  cursor-pointer rounded-2xl ">
         <nav className="w-[50%] flex items-center justify-around ">
-          <p>Logo</p>
+          <NavLink to='/'>
 
-          <ul className="flex items-center gap-16 font-mono ">
+          <img src="/video/alsum.png " alt=" logo" width={150} height={150} />
+          </NavLink>
+
+          <ul className="flex items-center gap-16  ">
             {TopNav.map((nav) => (
               <NavLink to={nav.link} key={nav.name} className={({ isActive, isPending, isTransitioning }) => `
         ${isActive ? 'font-bold border-b-2 border-green-700 text-green-600' : ''}
@@ -46,7 +49,7 @@ const Navigation = () => {
           </ul>
         </nav>
 
-        <div className="w-60% lg:w-90% flex items-center gap-10  font-mono  ">
+        <div className="w-60% lg:w-90% flex items-center gap-10   ">
           <p className=" items-center gap-2 flex">
             
             <TiPhone size={20} /> +233 550-000-000 
